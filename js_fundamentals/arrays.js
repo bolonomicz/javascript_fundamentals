@@ -8,4 +8,4 @@
 
 var varname = ["colors", "presidents", "whatever"];
 console.log("My 1st choice " + varname[0], "My 2nd choice " + varname[1], "My 3rd choice " + varname[2]);
-
+//finished
