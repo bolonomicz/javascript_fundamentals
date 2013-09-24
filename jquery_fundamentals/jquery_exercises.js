@@ -1,10 +1,16 @@
 // SOLUTIONS GO BELOW EACH EXERCISE
 
 // EXERCISE: Change Background
- $(document).ready(function() { JQUERY FUNCTIONS GO HERE }); 
+// $(document).ready(function() { JQUERY FUNCTIONS GO HERE }); 
 
 // Change the background color of '#target' by script. 
 // Hint: you can use .css
+
+$(document).ready(function() {
+	$("#target").css({
+		'background-color': 'blue'
+	});
+});
 
 // EXERCISE: Change Parent
 
