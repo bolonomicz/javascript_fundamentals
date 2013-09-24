@@ -43,7 +43,7 @@ var books = [
  	 alreadyRead: true},
 ];
 for (var i = 0; i < books.length; i++ ){
-	var book = books[i]
+	var book = books[i];
 	console.log(book.title + " by " + book.author);
 	var bookStatement = book.title + " by " + book.author
 	if ( book.alreadyRead === true){
@@ -73,7 +73,7 @@ function describeMovie(movie) {
 	for (var i = 0; i < movies.stars.length; i++) {
    
 }
-  console.log(movie.title + " lasts for " + movie.duration + "minutes. Stars:" + movie.stars); 
+  console.log(movie.title + " lasts for " + movie.duration + "minutes. Stars: " + movie.stars); 
 }
 
 

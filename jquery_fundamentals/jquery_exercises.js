@@ -1,6 +1,7 @@
 // SOLUTIONS GO BELOW EACH EXERCISE
 
 // EXERCISE: Change Background
+ $(document).ready(function() { JQUERY FUNCTIONS GO HERE }); 
 
 // Change the background color of '#target' by script. 
 // Hint: you can use .css

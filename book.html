@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8"/>
+   <title>My book list</title>
+ </head>
+ <body>
+   <h1>My book list</h1>
+  
+  <script>
+  	var books = [
+  		{
+  			title: "Holes", 
+   			author: "Bob",
+ 	 			alreadyRead: true
+ 			},
+  		{
+  			title: "holes3", 
+   			author: "Bob",
+ 	 			alreadyRead: false
+ 	 		},
+ 	 		{
+ 	 			title: "That book", 
+   			author: "That author",
+ 	 			alreadyRead: true
+ 	 		},
+		];
+
+for(count = 0; count < books.length; count++){
+	n = document.createElement('p'); 
+	var book = books[count];
+	document.body.appendChild(n);  
+	n.innerHTML= book.title + book.author ;
+}
+// Iterate through the array of books. For each book, create a p element with the book title and author and append it to the page.
+  </script>
+  </body>
+</html>

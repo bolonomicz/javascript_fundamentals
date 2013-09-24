@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>About Me</title>
+</head>
+<body>
+  <h1>About Me</h1>
+  
+  <ul>
+    <li>Nickname: <span id="nickname"></span>
+    <li>Favorites:  <span id="favorites"></span>
+    <li>Hometown: <span id="hometown"></span>
+  </ul>
+	
+	</body>
+</html>
+
+<script>
+var element=document.getElementsByTagName("body")[0]["style"]["fontFamily"] = "Arial, sans-serif";
+document.getElementById('nickname').innerHTML="Ralph";
+document.getElementById('favorites').innerHTML="My dog";
+document.getElementById('hometown').innerHTML="Ottawa";
+
+
+document.getElementById('nickname').className += " listitem";
+document.getElementById('favorites').className += " listitem";
+document.getElementById('hometown').className += " listitem";
+
+ 
+
+n = document.createElement('img'); 
+n.src = "http://www.legourmetburger.com/wp-content/uploads/2009/11/burger02.jpg";
+document.getElementById('nickname').appendChild(n); 
+
+</script>
